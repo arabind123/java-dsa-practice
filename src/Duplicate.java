@@ -8,7 +8,7 @@ public class Duplicate {
         {
             if(!set.add(nums[i]))
             {
-                System.out.println(nums[i]);
+                System.out.println("Duplicates are: "+nums[i]);
             }
         }
         return;

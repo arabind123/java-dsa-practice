@@ -12,7 +12,7 @@ public class DuplicatePrintOnce {
             {
                 if(duplicate.add(nums[i]))
                 {
-                    System.out.println(nums[i]);
+                    System.out.println("Duplicates are: "+nums[i]);
                 }
             }
         }
